@@ -5,6 +5,44 @@
   box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+
+header {
+  background-color: black;
+  padding: 12px 0px;
+}
+.header-links ul li a {
+  color: white;
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.header-links {
+  width: 980px;
+  margin: 0 auto;
+  font-size: 0.75em;
+  font-weight: 200px;
+}
+.header-links ul li {
+  opacity: 0.8;
+}
+.header-links ul li:hover {
+  opacity: 1;
+}
+
+.icon {
+  width: 18px;
+}
+
 body {
   font-family: Arial, sans-serif;
 }
