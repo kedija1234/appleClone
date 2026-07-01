@@ -1,0 +1,12 @@
+.sub-links {
+    display: none; /* Hidden initially */
+}
+h3 {
+    cursor: pointer;
+}
+
+.toggle {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
