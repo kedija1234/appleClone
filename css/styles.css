@@ -372,3 +372,18 @@ body {
   .head-title.open::after {
 	opacity: 0;
   } */
+.sixthHighlightWrapper{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+.sixthHighlightWrapper .leftSideWrapper{
+    background-image: url("../images/home/macBook-pro.jpg");
+    background-size: initial;
+    background-color: #fafafa;
+    background-position: bottom; 
+}
+.sixthHighlightWrapper .rightSideWrapper{
+    background-image: url("../images/home/new-ipad.jpg");
+}
